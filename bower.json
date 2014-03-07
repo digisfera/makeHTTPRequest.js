@@ -1,0 +1,22 @@
+{
+  "name": "make-http-request",
+  "version": "0.0.0",
+  "authors": [
+    "Manuel Cabral <m.cabral@digisfera.pt>"
+  ],
+  "description": "Make HTTP request using XDomainRequest or Superagent",
+  "main": "makeHTTPRequest.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "xdomainrequest": "~1.0.1",
+    "superagent": "~0.17.0",
+    "bowser": "~0.6.0"
+  }
+}
