@@ -13,3 +13,5 @@ function makeHTTPRequest(method, address, isJSON, data, callback) {
     });
   }
 }
+
+window.makeHTTPRequest = makeHTTPRequest;
