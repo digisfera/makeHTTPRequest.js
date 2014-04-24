@@ -8,8 +8,8 @@ function makeHTTPRequest(method, address, isJSON, data, callback) {
 
     req.end(function(err, res) {
       if(err) { callback(err); }
-      else if(!res.ok) { callback(res.body); }
-      else { callback(null, res.body); }
+      else if(!res.ok) { callback(res.body || res.text); }
+      else { callback(null, res.body || res.text); }
     });
   }
 }
